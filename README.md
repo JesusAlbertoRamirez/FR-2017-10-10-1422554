@@ -6,11 +6,13 @@
 En este repositorio se encuentran los siguientes archivos escritos en el lenguaje de programación Python (versión 2.7.14) :
 
 ws.py -----> Servidor Web
+
 socket-05.py -----> Cliente
 
 Y los siguientes escritos en HTML:
 
 index.html -----> Recurso
+
 Exception.html -----> Recurso
 
 En "socket-05.py" el cliente establece una conexión con un host remoto y le hace una petición.
