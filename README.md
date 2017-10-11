@@ -16,4 +16,5 @@ index.html -----> Recurso
 Exception.html -----> Recurso
 
 En "socket-05.py" el cliente establece una conexión con un host remoto y le hace una petición.
+
 En "ws.py" el cliente lee una petición y devuelve el recurso solicitado, que en este caso puede ser index.html o Excepcion.html.
