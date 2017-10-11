@@ -101,24 +101,7 @@ def http_handle(request_string):
     #                                           archivos ademas del HTML
     # - https://goo.gl/i7hJYP, muestra como construir un mensaje de respuesta
     #                          correcto en HTTP
-
-
-    """request = HTTPRequest(request_string)
-
-    print (request.request_version)
-    print (request.path)
-
-    if(request.path[0] == "/"):
-
-    	with open(request.path[1:]) as myfile:
-    		data = myfile.read()
-
-    	headers = "HTTP/1.1 200 OK\n" + "Content-Type: text/html\n" + "Connection: close\n" + "\n"
-
-    	answer = "%s%s\n" %(headers,data) 
-
-    return answer"""
-
+    
     source = request_string.split( )[1].split('/')[1]
     
     try:
